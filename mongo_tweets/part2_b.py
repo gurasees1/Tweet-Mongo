@@ -48,7 +48,7 @@ statesdict={}
 
 
 MONGO_HOST = 'mongodb://localhost/usa_db'  # assuming you have mongoDB installed locally
-# and a database called 'twitterdb'
+# and a database called 'usa_db'
 
 client = MongoClient(MONGO_HOST)
 db = client.usa_db
